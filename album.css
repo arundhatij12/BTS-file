@@ -1,0 +1,279 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jh::before{
+    content: "";
+    background-color:rgb(33 112 188);;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+   z-index: -1;
+    opacity: 0.3;
+}
+
+
+.list{
+  
+    position: absolute;
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.an{
+    display: block;
+    text-decoration: none;
+    padding: 1px 14px;
+    color: rgb(100, 148, 219);
+}
+
+.an:hover{
+    transform: scale(1.5);
+    color: rgb(67, 183, 250);
+}
+
+
+th{
+    padding: 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 2rem sans-serif;
+    
+}
+
+
+.container{
+    
+        height: 673px;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-self: center;
+    
+}
+
+.item{
+    width: 256px;
+    height: 41%;
+  
+    color: chartreuse;
+    background-color: plum;
+    border: 6px solid (0, 0, 0,1);
+    margin: 21px;
+    padding: 10px ;
+}
+
+.o{
+    width: 255px;
+    height: 99%;
+    color: chartreuse;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 6px solid (0, 0, 0,1);
+    margin: -10px;
+    padding: 11px;
+    opacity: 0;
+}
+
+.o:hover{
+    opacity: 1;
+}
+
+.q{
+    font-size: 3rem;
+    position: relative;
+    top: 100px;
+    left: 96px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    
+}
+
+
+
+#it1{
+    background-image: url("https://headlineplanet.com/home/wp-content/uploads/2020/11/BTS-BE-Digital-Cover.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#it1:hover{
+    transform:scale(1.2);
+}
+#it2:hover{
+    transform:scale(1.2);
+}#it3:hover{
+    transform:scale(1.2);
+}#it4:hover{
+    transform:scale(1.2);
+}#it5:hover{
+    transform:scale(1.2);
+}#it6:hover{
+    transform:scale(1.2);
+}#it7:hover{
+    transform:scale(1.2);
+}#it8:hover{
+    transform:scale(1.2);
+}#it9:hover{
+    transform:scale(1.2);
+}#it10:hover{
+    transform:scale(1.2);
+}#it11:hover{
+    transform:scale(1.2);
+}
+#it12:hover{
+    transform:scale(1.2);
+}
+#it13:hover{
+    transform:scale(1.2);
+}
+#it14:hover{
+    transform:scale(1.2);
+}
+#it15:hover{
+    transform:scale(1.2);
+}
+#it16:hover{
+    transform:scale(1.2);
+}
+#it17:hover{
+    transform:scale(1.2);
+}
+
+#it2{
+    background-image: url("https://bloximages.chicago2.vip.townnews.com/iowastatedaily.com/content/tncms/assets/v3/editorial/8/38/838095de-6162-11ea-a019-e718185b6c14/5e652c968a74a.image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it3{
+    background-image: url("https://i.pinimg.com/originals/e3/45/ad/e345add4634a5502a7660c25d78eaebd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#it4{
+    background-image: url("https://ibighit.com/bts/images/bts/discography/love_yourself-answer/album-cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it5{
+    background-image: url("https://ih1.redbubble.net/image.592218934.6917/flat,750x1000,075,t.u2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it6{
+    background-image: url("http://blog.onehallyu.com/wp-content/uploads/2017/09/BTS_Love_Yourself_Her_album_cover_art.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it7{
+background-image: url("https://pm1.narvii.com/6748/4fac31d82ee08aa98d35fe8b33e7b0b872e06f56v2_hq.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#it8{
+    background-image: url("https://images.genius.com/aa3ea466a15dca525a9c750b9e9437f7.1000x1000x1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+#it9{
+        background-image: url("https://2.bp.blogspot.com/-FBoF9WNHJFo/WlTA-4f9jsI/AAAAAAAAAd0/bwI8WsUQxcEgi-lDyafoU_p_3i4yDQCJwCPcBGAYYCw/s1600/BTS_You_Never_Walk_Alone_digital_cover_art.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+ 
+#it10{
+    background-image: url("https://www.sbs.com.au/popasia/sites/sbs.com.au.popasia/files/styles/body_image/public/bts-wings-cover.jpg?itok=Pvbe9VrN&mtime=1475706454");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+#it11{
+        background-image: url("https://nekosia.com/wp-content/uploads/2016/05/BTS-The-Most-Beautiful-Moment-in-Life-Young-Forever-Special-Album-320kbps-www.kstar-mp3.us_.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }    
+
+  #it12{
+            background-image: url("https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt2/album-cover.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+ 
+#it13{
+    background-image: url("https://ibighit.com/bts/images/bts/discography/hwayangyeonhwa-pt1/album-cover.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }           
+
+
+    #it14{
+        background-image: url("https://channel-korea.com/wp-content/uploads/2017/10/f5050d0f7a2bee1a99a8ed4f2ad36341.1000x1000x1.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }    
+
+ 
+ #it15{
+        background-image: url("https://ibighit.com/bts/images/bts/discography/skool_luv_affair/album-cover.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+        
+        
+  #it16{
+            background-image: url("https://ibighit.com/bts/images/bts/discography/o_rul8_2/album-cover.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }   
+            
+     
+#it17{
+    background-image: url("https://4.bp.blogspot.com/-ymOX8vvfT8Y/VBvd8hVY1xI/AAAAAAAAHGs/tpaJaamhunY/s1600/cover.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }         

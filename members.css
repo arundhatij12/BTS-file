@@ -1,0 +1,403 @@
+body{
+    background-color: black;
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap')
+}
+
+.home1{
+    background-image: url("https://images.wsj.net/im-252338/social");
+    position: absolute;
+    height: 86%;
+    width: 100%;
+   z-index: -1;
+   
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.jh::before{
+    content: "";
+    background-color:rgb(93 78 57);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+   z-index: -1;
+    opacity: 0.3;
+}
+
+
+.list{
+  
+    position: absolute;
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.an{
+    display: block;
+    text-decoration: none;
+    padding: 1px 14px;
+    color: rgb(149 116 92);
+}
+
+.an:hover{
+    transform: scale(1.5);
+    color: rgb(145, 83, 67);
+}
+
+
+th{
+    padding: 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 2rem sans-serif;
+    
+}
+
+.h{
+    color: rgb(93 78 57);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    text-shadow: 3px 4px #2b2625;
+
+}
+
+.t{
+    color: rgb(245, 201, 201);
+    
+}
+
+/*
+.contain{
+    display: flex;
+}*/
+
+.r1{
+    background-color:#382020;
+    padding: 85px;
+    width: 31%;
+    display: flex;
+    left: -14px;
+    margin: 4rem;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+ .o{
+        
+        padding: 166px;
+        width: 40%;
+        display: flex;
+        left: 81px;
+        position: absolute;
+        margin: -5rem;
+    opacity: 0;
+}
+
+.o:hover{
+    opacity: 1;
+}
+
+.v{
+    position: relative;
+    left: 176px;
+    top: -30px;
+    padding: 22px;
+    margin: 2px;
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+.v1{
+    position: relative;
+    left: 168px;
+    top: -20px;
+    padding: 48px;
+    margin: -32px;
+    display: block;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.v2{
+    position: relative;
+    left: 173px;
+    padding: 21px;
+    margin: -25px;
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.v3{
+    position: relative;
+    right: 152px;
+    top: -16px;
+    padding: 35px;
+    margin: -21px;
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.v4{
+    position: relative;
+    left: 173px;
+    top: -20px;
+    padding: 43px;
+    margin: -25px;
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.r1:hover{
+    transform: scale(1.15);
+}
+
+
+
+
+.box1{
+    background-color: aliceblue;
+    width: 23rem;
+    position: relative;
+    left: -24px;
+    height: 16rem;
+    padding: 5px;
+    margin: -46px;
+}
+
+.box2{
+   
+    position: relative;
+    left: 67px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.n{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color:rgb(93 78 57);
+    font-weight: bolder;
+    padding: 11px;
+}
+
+.m{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: white;
+    
+}
+
+.c:hover{
+    opacity: 1;
+}
+
+#b1{
+    background-image: url("https://i.pinimg.com/originals/e2/5b/b1/e25bb1aed3ca7e46a376ae6b93262c06.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.r2{
+    background-color: rgb(78 59 46);
+    padding: 83px;
+    width: 31%;
+    display: flex;
+    right: -565px;
+    margin: 4rem;
+    flex-direction: row;
+    position: relative;
+}
+
+.r2:hover{
+    transform: scale(1.15);
+}
+
+#b3{
+    background-image: url("https://i.pinimg.com/originals/d4/a9/b5/d4a9b502f09fba970e2f0a15511f48c7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box3{
+    background-color: aliceblue;
+    width: 19rem;
+    position: relative;
+    left: 186px;
+    height: 16rem;
+    padding: 5px;
+    margin: -37px;
+}
+
+.box4{
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    right: 255px;
+    font-size: 1.5rem;
+    color: purple;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.r3{
+    background-color: #382020;
+    padding: 85px;
+    width: 31%;
+    display: flex;
+    left: -14px;
+    margin: 4rem;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.box5{
+    background-color: aliceblue;
+    width: 21rem;
+    position: relative;
+    left: -29px;
+    height: 16rem;
+    padding: 5px;
+    margin: -46px;
+}
+
+.r3:hover{
+    transform: scale(1.15);
+}
+
+#b5{
+    background-image: url("https://wallpaperaccess.com/full/851741.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.r4{
+    background-color:rgb(78 59 46);
+    padding: 83px;
+    width: 31%;
+    display: flex;
+    right: -565px;
+    margin: 4rem;
+    flex-direction: row;
+    position: relative;
+}
+
+.r4:hover{
+    transform: scale(1.15);
+}
+
+#b7{
+    background-image: url("https://lh3.googleusercontent.com/Y8AIqp4p96SqUkkreJLDxj8zcVUtsnCGkR2eumf-7tAevPzlzoFdacPb9vMCVaQYBYrxGC6brGtMvlaSC05USIVrdkSArr3hsg=w960-rj-nu-e365");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.r5{
+    background-color: #382020;
+    padding: 85px;
+    width: 31%;
+    display: flex;
+    left: -14px;
+    margin: 4rem;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.box6{
+    background-color: aliceblue;
+    display: flex;
+    width: 20rem;
+    position: relative;
+    left: -30px;
+    height: 16rem;
+    padding: 2px;
+    margin: -46px;
+}
+
+.r5:hover{
+    transform: scale(1.15);
+}
+#b9{
+    background-image: url("https://pbs.twimg.com/media/DT84JgGX0AEUJmR.jpg:large");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.r6{
+    background-color: rgb(78 59 46);
+    padding: 83px;
+    width: 31%;
+    display: flex;
+    right: -565px;
+    margin: 4rem;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.box7 {
+    background-color: aliceblue;
+    width: 21rem;
+    position: relative;
+    left: 193px;
+    height: 16rem;
+    padding: 5px;
+    margin: -37px;
+}
+
+.r6:hover{
+    transform: scale(1.15);
+}
+
+#b11{
+    background-image: url("https://www.korebu.com/wp-content/uploads/2021/05/bts-v-rolling-stone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.r7{
+    background-color:  #382020;
+    padding: 85px;
+    width: 31%;
+    display: flex;
+    left: -14px;
+    margin: 4rem;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.r7:hover{
+    transform: scale(1.15);
+}
+
+#b13{
+    background-image: url("https://i.pinimg.com/originals/55/2a/4c/552a4c15ad98a2c61ffe35e5bbc59f7f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

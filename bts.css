@@ -1,0 +1,425 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+   vertical-align: middle;
+   display: table-cell;
+}
+
+.jh::before{
+    content: "";
+    background-color:rgb(33 112 188);;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+   z-index: -1;
+    opacity: 0.3;
+}
+
+
+.list{
+  
+    position: absolute;
+    list-style: none;
+    display: flex;
+   flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.an{
+    display: block;
+    text-decoration: none;
+    padding: 1px 14px;
+    color: rgb(100, 148, 219);
+}
+
+.an:hover{
+    transform: scale(1.5);
+    color: rgb(67, 183, 250);
+}
+
+
+th{
+    padding: 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 2rem sans-serif;
+    
+}
+
+.home{
+    display: flex;
+}
+
+.home::before{
+    content: "";
+   
+   background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/last-1605728162.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    top: 0;
+    left: 0;
+    
+    position: absolute;
+    height: 56%;
+    width: 100%;
+   z-index: -1;
+    opacity: 1;
+
+  animation: slide 15s infinite ;
+}
+
+@keyframes slide{
+   
+  /*  20%{background-image: url("https://s1.ticketm.net/dam/a/284/a8f5a097-0fad-40c7-906f-56b4e17cf284_1273321_TABLET_LANDSCAPE_LARGE_16_9.jpg");}*/
+
+   
+    30%{background-image: url("https://wallpapertops.com/walldb/original/9/f/6/161027.jpg");  }
+    75%{background-image: url("https://lh3.googleusercontent.com/nyzqOT9oqORbKZpOlBbtXM2ieJmHGtEgDw56AzIQSLTOFIKdlJMXKv_8OyfjqiBbvVs3AWanRaWHCTSEyCXbiyUgcqUl3T--=w1600-rj");}
+
+    120%{background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/last-1605728162.jpg");}
+}
+
+
+/*
+.h{
+    background-color: #000000;
+}
+
+.b{
+    
+    width: 152px;
+    height: 0px;
+    position: relative;
+   
+
+   background-image: url("https://1000logos.net/wp-content/uploads/2018/01/bts-symbol.jpg");
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    padding: 50px 17px;
+    margin: 2px;
+    background-color: rgb(13 9 15 / 51%);*/
+
+    /*
+    animation-duration: 8s;
+    animation-fill-mode:alternate;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;*/
+/*
+
+    animation-name: magicshop;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.b:hover{
+    transform: scale(2);
+}*/
+
+/*
+.logo{
+    
+    background-image: url(https://1000logos.net/wp-content/uploads/2018/01/bts-symbol.jpg);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    padding: 52px 17px;
+    margin: 3px;
+    background-color: rgb(13 9 15 / 51%);
+    animation-name: magicshop;
+    animation-duration: 4s;
+    animation-fill-mode:alternate;
+    animation-direction: reverse;
+
+
+} */
+/*
+@keyframes magicshop {
+   from{
+       width: 0px;
+   }
+   to{
+       width: 220px;
+   }
+}
+
+.head{
+    background-color: black;
+    font: 2rem sans-serif;
+    padding: 30px;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}*/
+
+.bts{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 155px 246px;
+    align-items: center;
+    color: rgb(33 158 188);
+    
+}
+
+/*
+.navbar{
+   background-image: url("http://kpopdropshipper.com/wp-content/uploads/2019/01/9590039734_877401786-1024x1024.jpg");
+     margin: 4rem;
+     padding: 4rem;
+     background-position: 9%;
+     
+     width: 78%;
+     display: flex;
+     flex-wrap: wrap;
+}
+
+*/
+
+.ds{
+    display: inline;
+    
+    color: rgb(182, 168, 168);
+}
+
+.ds:hover{
+    background-color: rgb(222, 230, 227);
+}
+
+/*
+.hh{
+   background-color: #48096f;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 12px;
+    display: flex;
+}*/
+
+.yt{
+    font-size: 50px;
+    color: rgb(252, 223, 62);
+    justify-content: center;
+    align-items: center;
+    padding: 1px 12px;
+    display: flex;
+    text-shadow: 2.5px 4.94px rgb(116, 0, 194);
+}
+
+.con2{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 27px 12px;
+    margin: 49px 62px;
+    flex-wrap:wrap;
+   justify-content: space-evenly;
+  
+}
+
+.container{
+    height: 673px;
+    width: 100%;
+    border: 4px solid plum;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+
+.card{
+    padding: 116px 104px;
+    margin: -4px;
+    background-color: rgb(97 13 144 / 51%);
+    box-shadow: 10px 23px #48096f;
+}
+
+@keyframes magic {
+    from{width: 7px;}
+    to{width: 16px;}
+}
+
+
+#card1{
+    background-image: url("https://headlineplanet.com/home/wp-content/uploads/2020/08/BTS-Dynamite-Group-scaled.jpg");
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 3rem;
+    height: 7px;
+    
+}
+
+.over{
+    position: absolute;
+    padding: 123px 104px;
+    margin: -104px;
+    width: 8.3rem;
+    height: 59px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.over:hover{
+    opacity: 1;
+}
+
+.bil{
+    color: white;
+    font-size: 1.3rem;  
+}
+
+.text{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.text1{
+    color: hsl(0, 87%, 65%);
+    font-size: 1.2rem;
+   
+}
+
+
+#card1:hover{
+    background-color:gold;
+    opacity: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+
+#card2:hover{
+    background-color:gold;
+    opacity: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+
+#card3:hover{
+    background-color:gold;
+    
+    width: 100px;
+    height: 100px;
+}
+
+#card2{
+    background-image: url("https://www.korebu.com/wp-content/uploads/2021/05/bts-butter-teaser-2.jpg");
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 3rem;
+    height: 7px;
+}
+
+#card3{
+    background-image: url("https://larepublica.pe/resizer/RRexQLNN9YHXYDTCook-Oe_bl8Q=/807x475/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/TSIG3M5MTZFK5HCGG4TJN625P4.jpg");
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 3rem;
+    height: 7px
+}
+
+
+
+
+.item{
+
+   
+
+    width: 237px;
+    height: 37%;
+  
+    color: chartreuse;
+    background-color: plum;
+    border: 6px solid white;
+    margin: 21px;
+    padding: 10px;
+
+   
+}
+
+
+
+#it1{
+    background-image: url("https://thevisionmsms.org/wp-content/uploads/2018/08/oofsies.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it2{
+    background-image: url("https://4.bp.blogspot.com/-ymOX8vvfT8Y/VBvd8hVY1xI/AAAAAAAAHGs/tpaJaamhunY/s1600/cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it3{
+    background-image: url("https://www.sbs.com.au/popasia/sites/sbs.com.au.popasia/files/styles/body_image/public/bts-wings-cover.jpg?itok=Pvbe9VrN&mtime=1475706454");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#it4{
+    background-image: url("https://bloximages.chicago2.vip.townnews.com/iowastatedaily.com/content/tncms/assets/v3/editorial/8/38/838095de-6162-11ea-a019-e718185b6c14/5e652c968a74a.image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it5{
+    background-image: url("https://nekosia.com/wp-content/uploads/2016/05/BTS-The-Most-Beautiful-Moment-in-Life-Young-Forever-Special-Album-320kbps-www.kstar-mp3.us_.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it6{
+    background-image: url("https://i2.wp.com/images6.fanpop.com/image/polls/1279000/1279381_1379210755366_full.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#it7{
+background-image: url("https://2.bp.blogspot.com/-FBoF9WNHJFo/WlTA-4f9jsI/AAAAAAAAAd0/bwI8WsUQxcEgi-lDyafoU_p_3i4yDQCJwCPcBGAYYCw/s1600/BTS_You_Never_Walk_Alone_digital_cover_art.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.end{
+    color: white;
+    background-color: #48096f;
+    display: flex;
+    padding: 60px 22px;
+    flex-direction: column;
+    align-items: center;
+   justify-content:center;
+}
